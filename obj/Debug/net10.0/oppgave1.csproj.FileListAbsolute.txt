@@ -1,0 +1,15 @@
+/workspaces/110-part-2/obj/Debug/net10.0/oppgave1.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/110-part-2/obj/Debug/net10.0/oppgave1.AssemblyInfoInputs.cache
+/workspaces/110-part-2/obj/Debug/net10.0/oppgave1.AssemblyInfo.cs
+/workspaces/110-part-2/obj/Debug/net10.0/oppgave1.csproj.CoreCompileInputs.cache
+/workspaces/110-part-2/obj/Debug/net10.0/oppgave1.sourcelink.json
+/workspaces/110-part-2/bin/Debug/net10.0/oppgave1
+/workspaces/110-part-2/bin/Debug/net10.0/oppgave1.deps.json
+/workspaces/110-part-2/bin/Debug/net10.0/oppgave1.runtimeconfig.json
+/workspaces/110-part-2/bin/Debug/net10.0/oppgave1.dll
+/workspaces/110-part-2/bin/Debug/net10.0/oppgave1.pdb
+/workspaces/110-part-2/obj/Debug/net10.0/oppgave1.dll
+/workspaces/110-part-2/obj/Debug/net10.0/refint/oppgave1.dll
+/workspaces/110-part-2/obj/Debug/net10.0/oppgave1.pdb
+/workspaces/110-part-2/obj/Debug/net10.0/oppgave1.genruntimeconfig.cache
+/workspaces/110-part-2/obj/Debug/net10.0/ref/oppgave1.dll

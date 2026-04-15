@@ -12,11 +12,13 @@ namespace UniversitetsSystem
             string StudentID,
             string navn,
             string epost,
+            string brukernavn, 
+            string passord,
             string hjemuniversitet,
             string land,
             DateTime periodeFra,
             DateTime periodeTil)
-            : base(StudentID, navn, epost)
+            : base(StudentID, navn, epost, brukernavn, passord)
         {
             Hjemuniversitet = hjemuniversitet;
             Land = land;

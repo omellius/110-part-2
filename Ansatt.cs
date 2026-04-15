@@ -7,7 +7,10 @@ namespace UniversitetsSystem
         public string Stilling { get; private set; }
         public string Avdeling { get; private set; }
 
-        public Ansatt(string ansattID, string navn, string epost, string stilling, string avdeling) : base(navn, epost)
+        // NEW: Ansatt tar nå også rolle + innloggingsdata.
+        // Årsak: samme ansatt-klasse brukes for både faglærer og bibliotekansatt.
+        public Ansatt(string ansattID, string navn, string epost, string brukernavn, string passord, string stilling, string avdeling, BrukerRolle rolle)
+            : base(navn, epost, brukernavn, passord, rolle)
         {
             AnsattID = ansattID;
             Stilling = stilling;

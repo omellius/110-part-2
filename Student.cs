@@ -9,8 +9,9 @@ namespace UniversitetsSystem
         public List<string> PåmeldteKurs { get; private set; }
 
         // kaller konstruktøren til bruker
+        // konstruktøren tar nå også inn brukernavn og passord
 
-        public Student(string studentID, string navn, string epost) : base(navn, epost)
+        public Student(string studentID, string navn, string epost, string brukernavn, string passord) : base(navn, epost, brukernavn, passord, BrukerRolle.Student)
         {
             StudentID = studentID;
             PåmeldteKurs = new List<string>();
